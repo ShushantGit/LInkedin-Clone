@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    max-width: 1128px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.navbar h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+.navbar h2 span {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.lists li {
+
+    list-style: none;
+    margin-right: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.lists {
+    display: flex;
+    margin-left: 23em;
+
+}
+
+.btn1 {
+    padding: 12px 23px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.btn2 {
+    padding: 12px 23px;
+    cursor: pointer;
+    color: blue;
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.btn1:hover {
+    background-color: whitesmoke;
+}
+
+.btn2:hover {
+    background-color: rgb(199, 228, 237);
+    color: grey;
+}
+
+li h6 {
+    font-size: 112%;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+/* main is begin */
+
+.main {
+    display: flex;
+    margin-top: 5%;
+    margin: auto;
+    max-width: 1128px;
+}
+
+.form {
+    width: 50%;
+    margin-top: 7%;
+}
+
+.image-mid {
+    margin-top: 12%;
+
+}
+
+.main-text {
+    font-size: 47px;
+    font-family: monospace;
+    font-weight: lighter;
+    color: #aa7878;
+}
+
+.form-button {
+    padding: 18px 104px;
+    border-radius: 5px;
+    margin-top: 11px;
+}
+
+.forms {
+    margin-top: 10px;
+}
+
+.forgot {
+    text-decoration: none;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.em {
+    margin-top: 25px;
+}
+
+.ps {
+    margin-top: 25px;
+}
+
+.btn-s {
+    padding: 14px 156px;
+    border-radius: 39px;
+    background-color: blue;
+    color: white;
+    font-family: math;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.btn-s:hover {
+    background-color: darkblue;
+}
+
+.btn-s2 {
+    font-weight: lighter;
+    padding: 14px 110px;
+    font-size: 18px;
+    font-family: arial;
+    background-color: transparent;
+    border-radius: 63px;
+    margin-top: 26px;
+}
+
+.btn-s2:hover {
+    background-color: whitesmoke;
+}
+
+.btn-s3 {
+    padding: 15px 82px;
+    border-radius: 64px;
+    margin-top: 10px;
+    font-size: 17.5px;
+    font-family: arial;
+    background-color: transparent;
+}
+
+.btn-s3:hover {
+    background-color: whitesmoke;
+}
+
+.line hr {
+    width: 48%;
+    height: 0;
+
+}
+
+.line {
+    display: flex;
+    width: 68%;
+    margin-top: 31px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section is begin */
+.size {
+
+    height: 325px;
+    background-color: #f4eeee;
+    margin-top: 44px;
+    display: flex;
+    padding-left: 12%;
+    padding-right: 150px;
+
+}
+
+.sec-1 {
+    width: 97%;
+}
+
+.sec-1 p {
+    font-size: 54px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    word-spacing: 1px;
+    margin-bottom: 17px;
+    margin-top: 59px;
+}
+
+.sec-1 span {
+    font-family: system-ui;
+    font-size: 23px;
+}
+
+.btnsec {
+    padding: 17px 24px;
+    border-radius: 33px;
+    background: transparent;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.btngroup {
+    margin-top: 80px;
+    margin-left: 58px;
+}
+
+#show {
+    border: 2px solid blue;
+    color: blue;
+}
+
+.btnsec:hover {
+    background-color: lightgrey;
+}
+
+#show:hover {
+    background-color: lightgrey;
+}
+
+.textdiv {
+    width: 97%;
+}
+
+.btndiv {
+    margin-left: 135px
+}
+
+.btndiv p {
+    margin-top: 56px;
+}
+
+.sec-2 {
+    display: flex;
+    margin: auto;
+    padding-left: 12%;
+    padding-right: 150px;
+    height: 70vh;
+
+}
+
+.textdiv p {
+    font-size: 54px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    word-spacing: 1px;
+    margin-top: 59px;
+}
+
+.formargintop {
+    margin-top: 23px;
+}
+
+.sec-3 {
+    height: 300px;
+    background-color: #d1bdbd;
+    margin-top: 44px;
+    display: flex;
+    padding-left: 12%;
+    padding-right: 150px;
+
+}
+
+.tex-3 {
+    width: 46%;
+    margin-top: 48px;
+}
+
+.tex-3 p {
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+}
+
+.btnor {
+    padding: 17px 24px;
+    margin-top: 102px;
+    margin-left: 4px;
+    border-radius: 33px;
+    background: transparent;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.btnor:hover {
+    background-color: lightgrey;
+}
+
+.slider {
+    display: flex;
+    background-color: #f3f2f0;
+    height: 110vh;
+}
+
+.txt {
+    padding-left: 12%;
+    width: 40%;
+    margin-top: 206px;
+    font-family: sans-serif;
+}
+
+.txt h3 {
+    font-size: 40px;
+    color: rgb(174, 98, 98);
+}
+
+.txt p {
+    font-family: sans-serif;
+    font-size: 27px;
+    margin-top: 19px;
+    width: 84%;
+}
+
+.imgs {
+    margin-top: 139px;
+    margin-left: 36px;
+    margin-top: 30px;
+}
+
+
+.details {
+    display: flex;
+    height: 90vh;
+    margin-top: 130px;
+    margin-bottom: 150px;
+
+}
+
+.det-1 {
+    padding-left: 12%;
+    width: 30%;
+}
+
+.h3n h3 {
+    font-size: 45px;
+    font-family: math;
+    font-weight: lighter;
+    color: black;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.btndetails {
+    font-family: arial;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 14px 27px;
+    font-size: 17px;
+    color: grey;
+    background-color: transparent;
+    border-radius: 37px;
+}
+
+.btndetails:hover {
+    background-color: whitesmoke;
+}
+
+.det-2 {
+    margin-left: 37px;
+    width: 37%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 86px;
+    margin-top: 49px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 26px;
+    font-size: 19px;
+    border: 2px solid lightgrey;
+    font-family: arial;
+    font-weight: lighter;
+    border-radius: 7px;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: whitesmoke;
+}
+
+.h3n2 h3 {
+
+    font-size: 45px;
+    font-family: math;
+    font-weight: lighter;
+    color: black;
+    margin-top: 27px;
+    margin-left: 85px;
+
+
+}
+
+.aero {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.last {
+    display: flex;
+    width: 110%;
+    height: 120vh;
+}
+
+.lastp {
+    color: darkred;
+    font: menu;
+    font-weight: 400;
+    font-size: 40px;
+
+}
+
+.lastpnext {
+    color: black;
+    font-family: math;
+    font-weight: 10;
+    font-size: 40px;
+    margin-top: 18px;
+}
+
+.leftside {
+    background-color: whitesmoke;
+    padding-left: 12%;
+    margin-top: 90px;
+}
+
+.lastbtn {
+    padding: 20px 57px 20px 15px;
+    background-color: #faedef;
+    font-size: 20px;
+    font-family: arial;
+    color: black;
+    margin-top: 15px;
+}
+
+.downbutton {
+    margin-top: 30px;
+}
+
+.lastbtn:hover {
+    background-color: white;
+}
+
+.swipedown {
+    margin-top: 240px;
+}
+
+.fotter{
+    display: flex;
+    background-color: rgb(221, 184, 184);
+    height: 55vh;
+    margin-top: 70px;
+
+}
+
+li{
+    list-style: none;
+}
+
+.footerul{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.footerul h2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.footerul h2 span{
+    color: white;
+    background-color: blue;
+    border-radius: 5px; 
+}
+
+.footerul ul li{
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 4px;
+    color: black;
+
+}
+
+.footerul ul li:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.maing{
+    
+    font-weight: bolder;
+}
